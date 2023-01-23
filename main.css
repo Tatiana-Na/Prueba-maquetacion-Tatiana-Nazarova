@@ -140,11 +140,11 @@ footer {
 .footer-menu_link { 
     text-decoration: none; 
     color: var(--text-color);
-    -webkit-transition: all 1s ease;
-    transition: all 1s ease;
 }
 
 .footer-menu_link:hover {
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
     color: #e74c3c;
 }
 
@@ -174,7 +174,6 @@ footer {
 /* ------------------- BREAKPOINTS -------------------*/
 
 /* Small devices (portrait phones, less than 576px) */
-
 @media screen and (min-width: 576px) {
     aside {
         display: none;
@@ -183,7 +182,6 @@ footer {
 
 
 /* Medium devices (landscape tablets, 768px and up) */
-
 @media screen and (min-width: 768px) {
 
 /* ---------- MENU ---------- */
@@ -192,7 +190,7 @@ footer {
     padding-right: 6rem;   
 }
 .menu_link { 
-    padding: 1rem 2rem;
+    padding: 1rem 4rem;
 } 
 
 /* ---------- ASIDE ---------- */  
@@ -225,7 +223,6 @@ footer {
 
 
 /* Large devices (desktops, 1024px and up) */
-
 @media screen and (min-width: 1024px) {
 
     body {
@@ -285,7 +282,7 @@ footer {
     
     aside .square {
         width: 90%;
-        height: 20%;
+        height: 25%;
         max-width: 20rem;
     }
 
